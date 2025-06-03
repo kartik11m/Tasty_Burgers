@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+}
+
+.cart-section{
+    width: 0px;
+    height: 0px;
+}
+
+.cart-section .container{
+    /* width: 900px; */
+    max-width: 90vw;
+    margin: auto;
+    text-align: center;
+    padding-top: 10px;
+    transition: transform .5s;
+    opacity: 1;
+}
+
+.cart-section .icon-cart svg{
+    width: 30px;
+    height: 40px;
+}
+
+.cart-section header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.cart-section header .icon-cart{
+    position: relative;
+}
+
+.cart-section header .icon-cart span{
+    display: flex;
+    width: 30px;
+    height: 30px;
+    background-color: red;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    right: -15px;
+}
+
+.listProduct .item img{
+    height: 15rem;
+    width: 90%;
+    filter: drop-shadow(0 50px 20px #0009);
+    /* background-color: transparent; */
+    border-radius: 10px;
+}
+
+.listProduct{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+}
+
+.listProduct .item{
+    background-color:#eeeee6;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.listProduct .item h2{
+    font-weight: 500;
+    font-size: large;
+}
+
+.listProduct .item .price{
+    letter-spacing: 7px;
+    font-size: small;
+}
+
+.listProduct .item button{
+    background-color: #353432;
+    color: #eee;
+    padding: 5px 10px;
+    border-radius: 20px;
+    margin-top: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.cart-section .cartTab {
+    width: 400px;
+    background-color: #353432;
+    color: #eee;
+    position: fixed;
+    inset: 0 -400px 0 auto;
+    top: 13%;
+    right: 0%;
+    z-index: 100;
+    display: grid;
+    grid-template-rows: 70px 1fr 70px;
+    transition: all 3s;
+}
+
+/* Fix: Apply correct class */
+.cart-section.showCart .cartTab {
+    opacity: 1;
+    inset: 0 0 0 auto; 
+    /* Cart slides into view */
+}
+
+.cart-section.showCart .container {
+    /* width: 0px;
+    height: 0px; */
+    opacity: 0;
+    /* transform: translateX(1000px);  */
+    /* Moves the container */
+}
+
+.cart-section .cartTab .listCart .item .delete-c{
+    cursor: pointer;
+}
+
+.cartTab h1{
+    padding: 20px;
+    margin: 0;
+    font-weight: 300;
+}
+
+.cartTab .btn1{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.cartTab .btn1 button{
+    background-color: #E8BC0E;
+    border: none;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.cartTab .btn1 .close{
+    background-color: #eee;
+    padding: 5px;
+}
+
+.cartTab .listCart .item img{
+    width: 100%;
+    border-radius: 40%;
+}
+
+.cartTab .listCart .item{
+    display: grid;
+    grid-template-columns: 70px 100px 50px 100px 1fr;
+    gap: 10px;
+    margin-top: 20px;
+    padding: 10px;
+    text-align: center;
+    align-items: center;
+}
+
+.cartTab .total-text{
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+.cartTab .total-c{
+    margin: -10px;
+}
+
+.listCart .quantity span{
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    font-size: 15px;
+    background-color: #eee;
+    color: #000000;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+
+.listCart .quantity span:nth-child(2){
+    background-color: transparent;
+    color: #eee;
+}
+
+.listCart .item:nth-child(even){
+    background-color: #eee1;
+}
+
+.listCart{
+    overflow: auto;
+}
+
+.listCart .Empty-text{
+    margin-top: 50%;
+    font-size: 1.75rem;
+}
+
+.listCart::-webkit-scrollbar{
+    width: 0;
+}
+
+@media screen and (max-width:992px){
+    .listProduct{
+        grid-template-columns: repeat(3,1fr);
+    }
+}
+
+@media (max-width:604px){
+    .cart-section .cartTab{
+        top: 15%;
+        right: 10%;
+        width: 300px;
+    }
+}

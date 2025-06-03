@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.CheckOut-section{
+    background: url("../Assets/Food_Assets/assets/footer/banner-1.jpg") no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.CheckOut-section .ck-head{
+    font-size: 2.375rem;
+    font-weight: 400;
+    margin-bottom: 25px;
+}

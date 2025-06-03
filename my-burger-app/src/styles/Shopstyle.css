@@ -1,0 +1,176 @@
+.shop-section{
+    position: relative;
+    background: url("../Assets/outlets/location.jpg") no-repeat center center ;
+    background-size: cover ;
+    background-attachment:fixed;
+    padding-top: 170px;
+    padding-bottom: 90px;
+}
+
+.shop-section .container .s-col{
+    margin-left: 60%;
+}
+
+/* section 2 */
+
+
+.shop-outlet{
+    /* padding-top: 100px; */
+    padding-bottom:50px;
+}
+
+.shop-outlet .container .out{
+    margin-bottom: -70px;
+}
+
+.shop-outlet .card-img-top {
+    transition: all 500ms ease-in-out;
+}
+
+.shop-outlet h2{
+    font-size: 3.5rem;
+    color: var(--light-red);
+}
+
+.shop-outlet .para{
+    color: var(--grey);
+    padding: 10px 100px;
+    font-size: 19px;
+}
+
+.shop-outlet .item_rating{
+    color: var(--yellow);
+    padding-right: 5px;
+}
+
+.shop-outlet .wishlist {
+    color: var(--grey);
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.shop-outlet .wishlist  :hover{
+    color: var(--light-red);
+}
+
+.shop-outlet .card-title{
+    font-family: var(--oswald-font);
+    font-weight: 600;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.shop-outlet .card-text{
+    color: var(--grey);
+    font-size: 15px;
+}
+
+.shop-outlet .menu_price{
+    background-color: var(--bg-coffee);
+    display: inline-block;
+    padding: 7px 12px;
+    border-radius: 4px;
+}
+
+.shop-outlet .menu_price h5{
+    color: var(--yellow);
+    font-size: 1rem;
+}
+
+.shop-outlet .add_to_cart a{
+    background-color: var(--yellow);
+    display: inline-block;
+    font-size: 1rem;
+    line-height: 1;
+    font-weight: 700;
+    padding: 8px 14px;
+    margin: 5px;
+    border-radius: 4px;
+    opacity: 0;
+    transform: translateY(100px);
+    -webkit-transition: all 500ms ease-in-out;
+    -moz-transition: all 500ms ease-in-out;
+    -o-transition: all 500ms ease-in-out;
+    -ms-transition: all 500ms ease-in-out;
+    transition: all 500ms ease-in-out;
+}
+/* .menu_section .add_to_cart .add_to_cart_text{
+    margin-right: 5px;
+    color:brown;
+} */
+
+.shop-outlet .card:hover .card-img-top{
+    transform: scale(1.1);
+}
+
+.shop-outlet .card:hover .add_to_cart a{
+    transform: translateY(0);
+    opacity: 1;
+}
+
+
+.map-section .mh{
+    color: red;
+}
+
+.btn-red{
+    color: var(--white);
+    background: var(--light-red);
+    border-color: var(--light-red);
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.btn-red:hover,.btn-red:focus{
+    color: var(--light-red);
+    background: transparent;
+    border-color: var(--light-red);
+}
+
+@media (max-width:992px){
+    /* section 1 */
+    .shop-section .container .s-col{
+    margin-left: 50%;
+    }
+}
+
+@media (max-width:767px){
+    .shop-outlet .container .out{
+        margin-bottom: -40px;
+    }
+    .shop-outlet h2{
+        font-size: 3rem;
+    }
+    .shop-outlet .para{
+        font-size: 1.25rem;
+    }
+}
+
+@media (max-width:576px){
+    .shop-section{
+        background-attachment: scroll;
+    }
+    .shop-section .container .s-col{
+    margin-left: 0%;
+    }
+    .shop-section .hero-text h1{
+        color: rgb(0, 0, 0) !important;
+    }
+    .shop-section .hero-text p{
+        color: rgb(0, 0, 0) !important;
+    }
+
+}
+
+@media (max-width:380px){
+    .shop-outlet .container .out{
+        margin-bottom: -25px;
+    }
+    .shop-outlet h2{
+        font-size: 2.5rem;
+    }
+    .shop-outlet .para{
+        font-size: 1.1rem;
+        padding: 0px;
+    }
+}

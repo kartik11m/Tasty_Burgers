@@ -1,0 +1,28 @@
+.contact-section{
+    background: url("../Assets/Food_Assets/assets/footer/banner-1.jpg") no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.contact-section h4{
+    font-size: 2.375rem;
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+
+.contact-section h2{
+    font-size: 4.5rem;
+    margin-bottom: 25px;
+}
+
+.contact-section p{
+    width: 70%;
+    margin: 0 auto 30px;
+}
+
+.contact-section a{
+    font-size: 22px;
+    font-weight: 700;
+}

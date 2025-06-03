@@ -1,0 +1,422 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Exile&family=Jaro:opsz@6..72&family=Lobster&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Pacifico&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Poetsen+One&display=swap');
+
+.menu_start .container{
+    margin-top: 7rem;
+}
+
+.menu_start h1{
+    font-size: 4rem;
+}
+
+.menu_start h1{
+    margin-left: .5rem;
+}
+
+.menu_start .head_menu .fire{
+    width: 3rem;
+    height: 3rem;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.menu_start{
+    position: relative;
+    background: url("../Assets/Food_Assets/assets/hero/hero-1.jpg") no-repeat center center ;
+    background-size: cover ;
+    background-attachment:fixed;
+    padding-top: 170px;
+    padding-bottom: 90px;
+}
+
+.menu_start .container .row1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 40px;
+    margin-bottom: 7rem;
+}
+
+.menu_start .container .row2{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 40px;
+    margin-bottom: 7rem;
+}
+
+.menu_start .burger{
+    /* position: absolute;  */
+    width: 20rem;
+    background: transparent !important;
+    /* left: 20% ;
+    top: 80px ; */
+}
+
+.menu_start .burger1{
+    width: 25rem;
+    height: 25rem;
+}
+
+.menu_start .price_badge{
+    background: url("../Assets/Food_Assets/assets/hero/price-badge-yellow.png") no-repeat center center;
+    background-size: cover;
+    position: absolute;
+    top: -60px;
+    right: -40px;
+    width: 180px;
+    height: 176px;
+}
+
+.menu_start .badge_text{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 27%;
+    transform: translateY(-50%);
+}
+
+.menu_start .badge_text .h4_xs {
+    font-size: 1.875rem;
+    color: white;
+    font-weight: 600;
+    line-height: 1;
+}
+.menu_start .badge_text .h3_lg {
+    font-size: 2.875rem;
+    color: white;
+    font-weight: 600;
+    line-height: 1;
+}
+
+/* .menu_start .hero_text{
+    margin-top: 50px;
+} */
+.menu_start .hero_text h1{
+    font-family: var(--lilita-font);
+    font-size: 2rem;
+    line-height: 1;
+    margin-bottom: 15px;
+    letter-spacing: 3px;
+}
+
+.menu_start .hero_text h2{
+    font-family: var(--lilita-font);
+    font-size: 1.5rem;
+    line-height: 1;
+    margin-bottom: 20px;
+    letter-spacing: 3px;
+}
+
+.menu_start .hero_text p{
+    padding: 0.5%;
+}
+
+/* section 2 */
+.menu_section{
+    padding-top: 70px;
+    padding-bottom:70px;
+}
+
+.menu_section .card-img-top {
+    transition: all 500ms ease-in-out;
+}
+
+.menu_section h2{
+    font-size: 3.5rem;
+    color: var(--light-red);
+}
+
+.menu_section .para{
+    color: var(--grey);
+    padding: 10px 100px;
+    font-size: 19px;
+}
+
+.menu_section .item_rating{
+    color: var(--yellow);
+    padding-right: 5px;
+}
+
+.menu_section .wishlist {
+    color: var(--grey);
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.menu_section .wishlist  :hover{
+    color: var(--light-red);
+}
+
+.menu_section .card-title{
+    font-family: var(--oswald-font);
+    font-weight: 600;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.menu_section .card-text{
+    color: var(--grey);
+    font-size: 15px;
+}
+
+.menu_section .menu_price{
+    background-color: var(--bg-coffee);
+    display: inline-block;
+    padding: 7px 12px;
+    border-radius: 4px;
+}
+
+.menu_section .menu_price h5{
+    color: var(--yellow);
+    font-size: 1rem;
+}
+
+.menu_section .add_to_cart a{
+    background-color: var(--yellow);
+    display: inline-block;
+    font-size: 1rem;
+    line-height: 1;
+    font-weight: 700;
+    padding: 8px 14px;
+    margin: 5px;
+    border-radius: 4px;
+    opacity: 0;
+    transform: translateY(100px);
+    -webkit-transition: all 500ms ease-in-out;
+    -moz-transition: all 500ms ease-in-out;
+    -o-transition: all 500ms ease-in-out;
+    -ms-transition: all 500ms ease-in-out;
+    transition: all 500ms ease-in-out;
+}
+/* .menu_section .add_to_cart .add_to_cart_text{
+    margin-right: 5px;
+    color:brown;
+} */
+
+.menu_section .card:hover .card-img-top{
+    transform: scale(1.1);
+}
+
+.menu_section .card:hover .add_to_cart a{
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.sides_start  .ads_box{
+    text-align: right;
+    padding: 80px 35px 50px;
+    border-radius: 6px;
+}
+
+.sides_start .ads_img1{
+    background: url("../Assets/Food_Assets/assets/menu/ads-1.jpg") no-repeat center center;
+    background-size: cover;
+}
+
+.sides_start  .ads_img2{
+    background: url("../Assets/Food_Assets/assets/menu/ads-2.jpg") no-repeat center center;
+    background-size: cover;
+}
+
+.sides_start  .ads_box h4{
+    font-size: 2.25rem;
+    font-weight: 300;
+    color: var(--brown);
+}
+
+.sides_start  .ads_box h5{
+    font-size: 2.375rem;
+    color: var(--brown);
+}
+
+.sides_start  .ads_box a{
+    margin-top: 15px;
+    font-size: 18px;
+}
+
+/* section 3 */
+
+.sides_start .sides_header{
+    color: red;
+    margin-bottom: 30px;
+}
+
+.sides_start .promo .first_side{
+    padding: 159px;
+    background: url("https://img.freepik.com/free-photo/view-delicious-shawarma-dish_23-2151805507.jpg?ga=GA1.1.941549983.1747749665&semt=ais_hybrid&w=740") no-repeat center center;
+    background-size: cover;
+    /* background-attachment: fixed; */
+    overflow: hidden;
+}
+
+.sides_start .promo .second_side{
+    padding: 190px;
+    background: url("https://img.freepik.com/premium-photo/yellow-background-with-french-fries-french-fries-it_943281-79482.jpg?ga=GA1.1.941549983.1747749665&semt=ais_hybrid&w=740") no-repeat center center;
+    background-size: cover;
+    /* background-attachment: fixed; */
+    overflow: hidden;
+}
+
+.sides_start .promo .third_side{
+    padding: 190px;
+    background: url("https://img.freepik.com/premium-photo/two-tall-glasses-chocolate-milkshakes-milkshakes-are-topped-with-generous-swirl-whipped-cream-drizzled-with-chocolate-syrup-sprinkled-with-chocolate-shavings_799429-9549.jpg?ga=GA1.1.941549983.1747749665&semt=ais_hybrid&w=740") no-repeat center center;
+    background-size: cover;
+    /* background-attachment: fixed; */
+    overflow: hidden;
+}
+
+.sides_start .promo .first-head{
+     font-family: "Poetsen One", sans-serif;
+     font-weight: 400;
+     font-size: 3rem;
+     font-style: normal;
+}
+
+.sides_start .promo .first-para{
+      font-family: "Caveat", cursive;
+        font-optical-sizing: auto;
+        font-weight: 200;
+        font-size: 2rem;
+        font-style: normal;
+}
+
+.sides_start .promo .first-s{
+    margin-right: 60%;
+}
+
+.sides_start .promo .second-s{
+    margin-left: 42%;
+}
+
+.sides_start .promo .third-s{
+    margin-left: 25%;
+}
+
+.sides_start .promo button{
+    padding: 5px 10px 5px 10px;
+}
+
+.btn-green{
+    color: var(--white);
+    background: rgb(2, 192, 2);
+    border-color: darkgreen;
+}
+
+.btn-green:hover,.btn-green:focus{
+    color: rgb(2, 192, 2);
+    background: transparent;
+    border-color: darkgreen;
+}
+
+.btn-brown{
+    color: var(--white);
+    background: rgb(122, 32, 32);
+    border-color: brown;
+}
+
+.btn-brown:hover,.btn-brown:focus{
+    color: rgb(122, 32, 32);
+    background: transparent;
+    border-color: brown;
+}
+
+
+@media (max-width:1200px){
+    /* promotion section */
+    .promotion_section h2{
+        font-size: 2.25rem;
+    }
+
+     /* section 3 */
+    .sides_start .promo .first-head{
+        font-size: 2.5rem;
+    }
+    .sides_start .promo .first-para{
+        font-size: 2rem;
+    }
+    .sides_start .promo .first_side{
+        padding: 60px 20px;
+    }
+    .sides_start .promo .second_side{
+        padding: 86.4px 20px;
+    }
+    .sides_start .promo .third_side{
+        padding: 20px 20px;
+        /* padding-top: 50px;
+        padding-bottom: 50px; */
+    }
+}
+
+@media (max-width:992px){
+    /* section 1 */
+    .menu_start .container .row1{
+        flex-direction: column !important;
+    }
+
+    .menu_start .container .row2{
+        flex-direction: column !important;
+    }
+
+    .menu_start .hero_text{
+        margin-top: 30px;
+    }
+}
+
+@media (max-width:767px){
+    /* section 1 */
+    .hero_section .hero_text h1{
+        font-size: 5.5rem;
+    }
+
+    /* section 2  menu para section*/
+    .menu_section .para{
+        padding: 10px 0px;
+    }
+
+    /* section 3 */
+    .sides_start .promo .first-head{
+        font-size: 2rem;
+    }
+    .sides_start .promo .first-para{
+        font-size: 1.7rem;
+    }
+    .sides_start .promo .first_side{
+        padding: 50px 20px;
+    }
+    .sides_start .promo .second_side{
+        padding: 86.4px 20px;
+    }
+    .sides_start .promo .third_side{
+        padding: 20px 20px;
+        /* padding-top: 50px;
+        padding-bottom: 50px; */
+    }
+
+}
+
+@media (max-width:500px){
+    .sides_start .promo .first-head{
+        font-size: 1.5rem;
+    }
+    .sides_start .promo .first-para{
+        font-size: 1.2rem;
+    }
+    .sides_start .promo .first_side{
+        padding: 0px;
+        padding-top: 10px;
+    }
+    .sides_start .promo .second_side{
+        padding: 0px;
+        padding-top: 10px;
+    }
+    .sides_start .promo .third_side{
+        padding: 0px;
+        padding-top: 10px;
+        /* padding-top: 50px;
+        padding-bottom: 50px; */
+    }
+}
+
+

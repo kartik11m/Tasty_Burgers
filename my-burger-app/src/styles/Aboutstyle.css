@@ -1,0 +1,131 @@
+.about-section{
+    position: relative;
+    background: url("https://img.freepik.com/premium-vector/red-simply-smooth-color-backdrop-abstract-background_87543-97.jpg?uid=R201364834&ga=GA1.1.941549983.1747749665&semt=ais_hybrid&w=740") no-repeat center center ;
+    background-size: cover ;
+    /* background-attachment:fixed; */
+    padding-top: 170px;
+    padding-bottom: 90px;
+}
+
+.about-section .about-coll{
+    margin-left: 5%;
+    margin-top: -70px;
+}
+
+.about-section .about-coll img{
+    height: 50rem;
+}
+
+.about-section .hero_text h1{
+    font-family: var(--lilita-font);
+    font-size: 6rem;
+    line-height: 1;
+    margin-bottom: 15px;
+    letter-spacing: 3px;
+}
+
+.about-section .hero_text h2{
+    font-family: var(--lilita-font);
+    font-size: 2.5rem;
+    line-height: 1;
+    margin-bottom: 20px;
+    letter-spacing: 3px;
+}
+
+.about-section .hero_text p{
+    padding: 0.5%;
+}
+
+/* section 4 */
+.location-section-about{
+    background: url("../Assets/outlets/freepik__generate-a-burger-shop-with-the-company-name-as-ta__72855.jpeg") no-repeat center center ;
+    background-size: cover ;
+    /* background-attachment:fixed; */
+    padding: 250px;
+}
+
+
+/* section 3 */
+.quality-section{
+    position: relative;
+    background: url("../Assets/outlets/back.jpeg") no-repeat center center ;
+    background-size: cover ;
+    /* background-attachment:fixed; */
+    padding: 150px;
+    margin-bottom: 50px;
+}
+
+.quality-section .hero_text{
+    
+}
+
+.quality-head{
+    color: red;
+    /* margin: 50px; */
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+/* section 5 */
+.shop_head{
+    color: red;
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+
+@media(max-width:700px){
+    .location-section-about{
+    padding: 100px;
+}
+.quality-section{
+    padding: 20px;
+    margin-bottom: 50px;
+}
+}
+
+@media(max-width:700px){
+    .location-section-about{
+    padding: 100px;
+}
+.quality-section{
+    padding: 20px;
+    margin-bottom: 50px;
+}
+}
+
+@media (max-width:500px){
+    .about-section .about-coll img{
+    height: 35rem;
+}
+.quality-section{
+    padding: 5px;
+    margin-bottom: 50px;
+}
+}
+
+@media (max-width:353px){
+    .about-section .hero_text h1{
+    font-size: 3.5rem;
+}
+.about-section .hero_text h2{
+    font-size: 2rem;
+}
+
+.about-section .about-coll img{
+    height: 30rem;
+}
+.location-section-about{
+    padding: 70px;
+}
+.location-section-about .hero_text h1{
+    margin-top: 20px;
+    font-size: 1.7rem;
+}
+.location-section-about .hero_text h2{
+    font-size: 1.25rem;
+}
+.location-section-about .hero_text button{
+    font-size: 1rem;
+    padding: 10px;
+}
+}
