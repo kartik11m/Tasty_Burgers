@@ -150,7 +150,7 @@ function Section3(){
                         </div>
                     </Col>
                     <Col sm={6} lg={7}>
-                        <div className="ads_box ads_img2">
+                        <div className="ads_box ads_img2 mb-5 mb-md-0">
                             <h4 className="mb-0">Get Your free</h4>
                             <h5>Burger</h5>
                             <Link to="/" className="btn btn_red px-4 rounded-0">
