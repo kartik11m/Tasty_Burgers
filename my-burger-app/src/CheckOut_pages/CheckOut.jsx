@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/Contactstyle.css";
-import Section1 from "./section1";
+import Section1 from "./Section1";
 import "../styles/CheckOutstyle.css"
 
 function CheckOut(){

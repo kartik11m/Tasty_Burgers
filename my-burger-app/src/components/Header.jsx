@@ -5,7 +5,7 @@ import {Link} from "react-router-dom"
 import Logo from "../Assets/Food_Assets/assets/logo/logo.png"
 import "../styles/Cart.css"
 import {useSelector} from "react-redux"
-import ItemCart from "../components/itemCart"
+import ItemCart from "./ItemCart"
 
 function Header(){
   

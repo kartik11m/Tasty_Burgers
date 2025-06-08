@@ -1,7 +1,7 @@
 import React from "react";
 import Layout4 from "../components/Layout4";
 import "../styles/Contactstyle.css";
-import Section1 from "./section1";
+import Section1 from "./Section1";
 // import Section2 from "./section2";
 // import Section3 from "./section3";
 // import Section4 from "./section4";
